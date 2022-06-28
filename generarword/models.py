@@ -8,3 +8,7 @@ class Clausulas(models.Model):
     nameaseg=models.CharField(max_length=50,null=True, verbose_name="Asegurado" )
     textpoliza=models.TextField(verbose_name="Parrafos")
 
+    """ def __str__(self):
+        fila="codigo: " + str(self.id) + " - " + self.title
+        return fila """
+
