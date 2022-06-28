@@ -24,7 +24,7 @@
 {% if clausulas %}
 <ul>
     {% for clausula in clausulas %}
-        <li><a href="{{ clausula.file }}">{{clausula.id}} - {{ clausula.title }} </a></li>
+        <li><a href="{{ clausula.file.url }}">{{clausula.id}} - {{ clausula.title }} </a></li>
     {% endfor %}
 </ul>
 {% endif %}
